@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "666510528445",
+    "firebase_url": "https://gruposdeestudio-6d971.firebaseio.com",
+    "project_id": "gruposdeestudio-6d971",
+    "storage_bucket": "gruposdeestudio-6d971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666510528445:android:02d19dd7822e978d",
+        "android_client_info": {
+          "package_name": "com.example.yawar.gruposdeestudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666510528445-mo1r094vjbe1v3tul6g1ef2embm5oqct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATOm04LtwBDMrPusnUwygcmZSMg5WSXYk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666510528445:android:ef45ce7d18f88d29",
+        "android_client_info": {
+          "package_name": "com.example.yawar.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666510528445-mo1r094vjbe1v3tul6g1ef2embm5oqct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATOm04LtwBDMrPusnUwygcmZSMg5WSXYk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
