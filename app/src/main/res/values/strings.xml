@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Grupos de Estudio</string>
+    <string name="title_activity_busqueda_tutores">BusquedaTutores</string>
 </resources>

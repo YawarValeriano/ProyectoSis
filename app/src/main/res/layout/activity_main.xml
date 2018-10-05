@@ -21,7 +21,7 @@
             android:id="@+id/nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yawar Valeriano"
+            android:text="Mauricio"
             android:layout_gravity="center"/>
     </LinearLayout>
     <android.support.v7.widget.RecyclerView
@@ -35,11 +35,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@+id/btnEnviarFoto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:drawable/ic_menu_gallery"
-            android:layout_gravity="center"/>
+            android:id="@+id/btnEnviarFoto"
+            android:visibility="gone"/>
         <EditText
             android:id="@+id/txtMensaje"
             android:layout_width="match_parent"

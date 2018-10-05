@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#e1dc5b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/spinner8"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="93dp"
+            android:layout_marginEnd="-66dp"
+            android:text="Seleccionar Aula"
+            android:layout_alignRight="@+id/spinner8"
+            android:layout_marginRight="-66dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:text="Cantidad de personas"/>
+
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView12"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="22dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Reservar Aula"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large"
+            android:textSize="@android:dimen/app_icon_size"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:text="Elige el horario"/>
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_marginTop="38dp"
+            android:layout_alignLeft="@+id/editText2" />
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/spinner8"
+            android:layout_marginStart="27dp"
+            android:layout_toEndOf="@+id/spinner8"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/spinner8" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBar"
+
+            android:layout_alignStart="@+id/textView12"
+            android:layout_marginStart="-52dp"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:hint="Descripción..."
+            android:inputType="textPersonName"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_marginLeft="-52dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="167dp"
+            android:background="#254b5e"
+            android:text="Reservar"
+            android:textColor="#fdf"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_marginRight="167dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:text="Contenido..." />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="40dp"
+            android:background="#1c3549"
+            android:text="Cancelar"
+            android:textColor="#fdf"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_marginRight="40dp" />
+
+    </RelativeLayout>
+</ScrollView>
